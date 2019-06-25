@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p08.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="314">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -182,12 +182,12 @@
       <updated>1560769465108</updated>
       <workItem from="1560769483749" duration="7952000" />
       <workItem from="1561190099889" duration="4494000" />
-      <workItem from="1561383335243" duration="25520000" />
+      <workItem from="1561383335243" duration="25562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37966000" />
+    <option name="totallyTimeSpent" value="38008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="-8" width="1297" height="784" extended-state="6" />
@@ -373,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p08.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="314">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
