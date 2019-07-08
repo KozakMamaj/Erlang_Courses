@@ -4,16 +4,15 @@
 %%% @doc
 %%%
 %%% @end
-%%% Created : 06. Jul 2019 14:05
+%%% Created : 08. Jul 2019 22:37
 %%%-------------------------------------------------------------------
--module(p03_tests).
+-module(p05_tests).
 -author("Andrey").
 
 -include_lib("eunit/include/eunit.hrl").
 
--import(p03,[element_at/2]).
+-import(p05,[reverse/1]).
 
-element_at_test_() -> [
-  ?_assert(element_at([a,b,c,d,e,f], 4) =:= d),
-  ?_assert(element_at([a,b,c,d,e,f], 10) =:= undefined)
+reverse_test_() -> [
+  ?_assert(reverse([1,2,3]) =:= [3,2,1])
 ].

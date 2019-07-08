@@ -4,16 +4,15 @@
 %%% @doc
 %%%
 %%% @end
-%%% Created : 06. Jul 2019 14:05
+%%% Created : 08. Jul 2019 22:40
 %%%-------------------------------------------------------------------
--module(p03_tests).
+-module(p12_tests).
 -author("Andrey").
 
 -include_lib("eunit/include/eunit.hrl").
 
--import(p03,[element_at/2]).
+-import(p12,[decode_modified/1]).
 
-element_at_test_() -> [
-  ?_assert(element_at([a,b,c,d,e,f], 4) =:= d),
-  ?_assert(element_at([a,b,c,d,e,f], 10) =:= undefined)
+decode_modified_test_() -> [
+  ?_assert(decode_modified([{4,a},b,{2,c},{2,a},d,{4,e}]) =:= [a,a,a,a,b,c,c,a,a,d,e,e,e,e])
 ].

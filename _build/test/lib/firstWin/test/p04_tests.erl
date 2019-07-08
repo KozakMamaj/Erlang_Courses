@@ -4,16 +4,20 @@
 %%% @doc
 %%%
 %%% @end
-%%% Created : 06. Jul 2019 14:05
+%%% Created : 08. Jul 2019 22:36
 %%%-------------------------------------------------------------------
--module(p03_tests).
+-module(p04_tests).
 -author("Andrey").
 
 -include_lib("eunit/include/eunit.hrl").
 
--import(p03,[element_at/2]).
+-import(p04,[len/1,len_tail/1]).
 
-element_at_test_() -> [
-  ?_assert(element_at([a,b,c,d,e,f], 4) =:= d),
-  ?_assert(element_at([a,b,c,d,e,f], 10) =:= undefined)
+len_test_() -> [
+  ?_assert(len([]) =:= 0),
+  ?_assert(p04:len([a,b,c,d]) =:= 4)
+].
+len_tail_test_() -> [
+  ?_assert(len_tail([]) =:= 0),
+  ?_assert(len_tail([a,b,c,d]) =:= 4)
 ].

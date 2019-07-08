@@ -4,16 +4,15 @@
 %%% @doc
 %%%
 %%% @end
-%%% Created : 06. Jul 2019 14:05
+%%% Created : 08. Jul 2019 22:42
 %%%-------------------------------------------------------------------
--module(p03_tests).
+-module(bs03_tests).
 -author("Andrey").
 
 -include_lib("eunit/include/eunit.hrl").
 
--import(p03,[element_at/2]).
+-import(bs03,[split/2]).
 
-element_at_test_() -> [
-  ?_assert(element_at([a,b,c,d,e,f], 4) =:= d),
-  ?_assert(element_at([a,b,c,d,e,f], 10) =:= undefined)
+split_test_() -> [
+  ?_assert(split(<<"Col1-:-Col2-:-Col3-:-Col4-:-Col5">>,"-:-") =:= [<<"Col1">>, <<"Col2">>, <<"Col3">>, <<"Col4">>, <<"Col5">>])
 ].

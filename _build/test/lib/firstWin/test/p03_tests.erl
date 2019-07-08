@@ -9,12 +9,11 @@
 -module(p03_tests).
 -author("Andrey").
 
--import(p03,[element_at/2]).
-
 -include_lib("eunit/include/eunit.hrl").
 
+-import(p03,[element_at/2]).
 
 element_at_test_() -> [
-  ?_assert(p03:element_at([a,b,c,d,e,f], 4) =:= d),
-  ?_assert(p03:element_at([a,b,c,d,e,f], 10) =:= undefined)
+  ?_assert(element_at([a,b,c,d,e,f], 4) =:= d),
+  ?_assert(element_at([a,b,c,d,e,f], 10) =:= undefined)
 ].

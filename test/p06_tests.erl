@@ -4,16 +4,16 @@
 %%% @doc
 %%%
 %%% @end
-%%% Created : 06. Jul 2019 14:05
+%%% Created : 08. Jul 2019 22:37
 %%%-------------------------------------------------------------------
--module(p03_tests).
+-module(p06_tests).
 -author("Andrey").
 
 -include_lib("eunit/include/eunit.hrl").
 
--import(p03,[element_at/2]).
+-import(p06,[is_palindrome/1]).
 
-element_at_test_() -> [
-  ?_assert(element_at([a,b,c,d,e,f], 4) =:= d),
-  ?_assert(element_at([a,b,c,d,e,f], 10) =:= undefined)
+is_palindrome_test_() -> [
+  ?_assert(is_palindrome([1,2,3,2,1]) =:= true),
+  ?_assert(is_palindrome([1,2,3,4,5]) =:= false) %Не входит в спецификацию
 ].

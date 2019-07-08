@@ -4,16 +4,18 @@
 %%% @doc
 %%%
 %%% @end
-%%% Created : 06. Jul 2019 14:05
+%%% Created : 08. Jul 2019 22:41
 %%%-------------------------------------------------------------------
--module(p03_tests).
+-module(p15_tests).
 -author("Andrey").
 
 -include_lib("eunit/include/eunit.hrl").
 
--import(p03,[element_at/2]).
+-import(p15,[replicate/2,replicate_tail/2]).
 
-element_at_test_() -> [
-  ?_assert(element_at([a,b,c,d,e,f], 4) =:= d),
-  ?_assert(element_at([a,b,c,d,e,f], 10) =:= undefined)
+replicate_test_() -> [
+  ?_assert(replicate([a,b,c], 3) =:= [a,a,a,b,b,b,c,c,c])
+].
+replicate_tail_test_() -> [
+  ?_assert(replicate_tail([a,b,c], 3) =:= [a,a,a,b,b,b,c,c,c])
 ].
