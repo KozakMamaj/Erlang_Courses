@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/p07.erl" line="40" mnemonic="5" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad4ec91-5b79-4c57-a937-5c7c8d6facc6" name="Default Changelist" comment="" />
+    <list default="true" id="7ad4ec91-5b79-4c57-a937-5c7c8d6facc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rebar.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rebar.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bs02.erl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bs03.erl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firstWin.app.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firstWin.erl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/p03_tests.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rebar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rebar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstWin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstWin.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,15 +29,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/bs01.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bs02.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/p08.erl">
+        <entry file="file://$PROJECT_DIR$/src/bs03.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="268">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -39,6 +60,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Erlang EUnit Tests" />
         <option value="Erlang Module" />
       </list>
     </option>
@@ -52,6 +74,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -60,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/demo.erl" />
         <option value="$PROJECT_DIR$/src/test_p01.erl" />
         <option value="$PROJECT_DIR$/src/p01.erl" />
-        <option value="$PROJECT_DIR$/src/p03.erl" />
         <option value="$PROJECT_DIR$/src/p02.erl" />
         <option value="$PROJECT_DIR$/src/p04.erl" />
         <option value="$PROJECT_DIR$/src/p06.erl" />
@@ -74,6 +96,18 @@
         <option value="$PROJECT_DIR$/src/p15.erl" />
         <option value="$PROJECT_DIR$/src/p07.erl" />
         <option value="$PROJECT_DIR$/src/p08.erl" />
+        <option value="$PROJECT_DIR$/src/bs01.erl" />
+        <option value="$PROJECT_DIR$/src/p03_test.erl" />
+        <option value="$PROJECT_DIR$/src/p03_tests.erl" />
+        <option value="$PROJECT_DIR$/src/p03.erl" />
+        <option value="$PROJECT_DIR$/test/p03_tests.erl" />
+        <option value="$PROJECT_DIR$/FirstWin.iml" />
+        <option value="$PROJECT_DIR$/rebar.lock" />
+        <option value="$PROJECT_DIR$/src/FirstWin.app.src" />
+        <option value="$PROJECT_DIR$/src/firstWin.erl" />
+        <option value="$PROJECT_DIR$/rebar.config" />
+        <option value="$PROJECT_DIR$/src/bs02.erl" />
+        <option value="$PROJECT_DIR$/src/bs03.erl" />
       </list>
     </option>
   </component>
@@ -83,7 +117,9 @@
     <option name="width" value="1261" />
     <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -101,6 +137,15 @@
               <item name="FirstWin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FirstWin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstWin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstWin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -113,6 +158,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -122,6 +168,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Erlang External Tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey\IdeaProjects\FirstWin\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,26 +187,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Erlang Console.Console">
-    <configuration name="Test" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="FirstWin" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="debugOptions">
-        <ErlangDebugOptions>
-          <option name="autoUpdateModulesNotToInterpret" value="true" />
-          <option name="modulesNotToInterpret">
-            <set />
-          </option>
-        </ErlangDebugOptions>
-      </option>
-      <option name="erlFlags" value="" />
-      <option name="moduleAndFunction" value="p01 test" />
-      <option name="params" value="" />
-      <option name="useTestCodePath" value="false" />
-      <option name="workDirectory" value="C:\Users\Andrey\IdeaProjects\FirstWin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Console" type="ErlangConsoleRunConfigurationType" factoryName="Erlang Console" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="FirstWin" />
       <option name="allowRunningInParallel" value="false" />
@@ -165,9 +196,24 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="FirstWin" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="command" value="eunit" />
+      <option name="skipDependencies" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Compile" type="RebarRunConfigurationType" factoryName="Erlang Rebar" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="FirstWin" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="command" value="compile" />
+      <option name="skipDependencies" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Erlang Application.Test" />
       <item itemvalue="Erlang Console.Console" />
+      <item itemvalue="Erlang Rebar.Compile" />
+      <item itemvalue="Erlang Rebar Eunit.Test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -183,17 +229,57 @@
       <workItem from="1560769483749" duration="7952000" />
       <workItem from="1561190099889" duration="4494000" />
       <workItem from="1561383335243" duration="25562000" />
+      <workItem from="1561474145597" duration="3545000" />
+      <workItem from="1562070474618" duration="7596000" />
+      <workItem from="1562337291530" duration="1808000" />
+      <workItem from="1562339292602" duration="2961000" />
+      <workItem from="1562408515745" duration="6067000" />
+      <workItem from="1562420699784" duration="875000" />
+      <workItem from="1562522808607" duration="1304000" />
+      <workItem from="1562524122514" duration="14634000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test - 2019.07.06 at 15h 43m 29s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.06 at 15h 43m 52s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.06 at 15h 44m 19s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.06 at 16h 48m 54s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.06 at 16h 49m 16s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.07 at 21h 14m 13s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.07 at 21h 20m 02s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.07 at 21h 34m 16s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.07 at 21h 35m 31s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test - 2019.07.08 at 14h 03m 16s.xml">
+      <configuration name="Test" configurationId="RebarEunitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38008000" />
+    <option name="totallyTimeSpent" value="76798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="-8" width="1297" height="784" extended-state="6" />
+    <frame x="117" y="-8" width="1257" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2506063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28654972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -202,7 +288,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32565284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -260,16 +346,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/demo.erl" />
-    <entry file="file://$PROJECT_DIR$/src/test_p01.erl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstWin.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_p01.erl" />
     <entry file="file://$PROJECT_DIR$/src/p02.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -281,27 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" selection-start-line="19" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p03.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p04.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="5" selection-start-line="26" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p06.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -354,27 +410,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/p08.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p06.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/p07.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="514">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/FirstWin/p01.beam">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/erl10.4/lib/eunit-2.3.7/include/eunit.hrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3916" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_build/test/extras/test/p03_tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Erlang/rebar3.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/erl10.4/lib/eunit-2.3.7/src/eunit_test.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/p03_tests.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstWin.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebar.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstWin.erl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstWin.app.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebar.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/erl10.4/lib/eunit-2.3.7/src/eunit_proc.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="324" column="13" selection-start-line="324" selection-start-column="13" selection-end-line="324" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p03.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p04.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p05.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p08.erl">
+    <entry file="file://$PROJECT_DIR$/src/bs02.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="91">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bs01.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bs03.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
